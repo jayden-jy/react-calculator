@@ -15,7 +15,7 @@ function App() {
     setUserInput((prevUserInput) => {
       return {
         ...prevUserInput,
-        [inputIdentifier]: newValue,
+        [inputIdentifier]: +newValue, // +를 입력함으로써 문자열값을 숫자값으로 변환
       };
     });
   }
