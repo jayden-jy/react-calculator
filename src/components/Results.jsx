@@ -9,7 +9,7 @@ export default function Results({ input }) {
 
   // console.log(resultData);
   return (
-    <table id="result">
+    <table id="result" className="center">
       <thead>
         <tr>
           <th>연도</th>
